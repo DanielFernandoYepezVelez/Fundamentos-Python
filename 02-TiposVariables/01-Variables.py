@@ -4,17 +4,20 @@
 texto = '¡¡¡Master En Python!!!'
 texto2 = 'Conociendo La Definición De Las Variables'
 
+# CONSTANTE
+SEPARADOR = '-----------------------------------'
+
 print(texto)
 print(texto2)
-print('-----------------------------------\n')
+print(f'{SEPARADOR}\n')
 
 # number
-numero = 45.678
-numero = 23
+numeroUno = 45.678
+numeroDos = 23
 
-print(numero)
-print(numero)
-print('-----------------------------------\n')
+print(numeroUno)
+print(numeroDos)
+print(f'{SEPARADOR}\n')
 
 """ CONCATENANDO VARIABLES Y SU VISUALIZACION """
 nombre = 'Daniel Fernando'
