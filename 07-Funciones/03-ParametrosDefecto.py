@@ -8,3 +8,11 @@ def getEmpleado(nombreEmployee, idEmployee='N/A'):
 
 getEmpleado('Daniel Fernando', 123233)
 getEmpleado('Daniel Fernando')
+
+# ---------------------------------------------
+def informacion(nombre, puesto = 'Desconocido'):
+    print(f'Soy {nombre} Y Soy {puesto}')
+
+informacion('Daniel Fernando Yepez Vélez', 'Programador')
+informacion('Andres Camilo Lopera Rosales', 'Diseñador')
+informacion('Rosmari Valencia Hicapie')
