@@ -43,4 +43,5 @@ print(f'ModuloDos / RestoDos => {moduloRestoParDos}')
 print('-----------------------------\n')
 
 """ Multiplicando La Base Por Si Misma """
-print(f'Multiplicando La Base Por Si Misma {4 ** 2}')
+print(f'Multiplicando La Base Por Si Misma {4 ** 2}') # 4 x 4 = 16 X 4 = 64
+print(f'Multiplicando La Base Por Si Misma {3 ** 3}') # 3 x 3 = 9 X 3 = 27
