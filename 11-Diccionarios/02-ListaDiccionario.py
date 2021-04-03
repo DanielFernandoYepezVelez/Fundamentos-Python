@@ -4,11 +4,11 @@ contactos = [
         "email": "danipez.01@gmail.com",
     },
     {
-        "name": "Daniel Fernando",
+        "name": "Dante Pez",
         "email": "danipez.02@gmail.com"
     },
     {
-        "name": "Daniel Fernando",
+        "name": "Camilo Rodriguez",
         "email": "danipez.03@gmail.com"
     }
 ]

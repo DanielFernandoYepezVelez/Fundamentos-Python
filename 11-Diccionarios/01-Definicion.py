@@ -9,7 +9,20 @@ user = {
     "activate": True
 }
 
+print(user)
 print(user['activate'])
 print(user['edad'])
-print(user)
 print(type(user))
+
+print('-------------\n')
+
+cancion = {
+    'artista': 'Music Team',
+    'nombre': 'Noche Tony',
+    'lanzamiento': 2000,
+    'likes': 200
+}
+
+print(cancion)
+print(cancion['artista'])
+print(cancion['lanzamiento'])
