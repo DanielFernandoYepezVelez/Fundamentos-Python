@@ -31,13 +31,40 @@ def app():
             mostrar_contactos()
             preguntar = False
         elif opcion == 4:
-            print('Buscar Contacto')
+            buscar_contacto()
             preguntar = False
         elif opcion == 5:
-            print('Eliminar Contacto')
+            eliminar_contacto()
             preguntar = False
         else:
             print('La Opción Ingresada No Es Válida, Intente De Nuevo')
+
+def eliminar_contacto():
+    nombre = input('\nIngrese El Nombre Del Contacto Que Desea Eliminar:\n')
+    
+    try:
+        os.remove(CARPETA + nombre + EXTENSION)
+        print('\n***** Contacto Eliminado Correctamente *****\n')
+    except IOError:
+        print(f'\n ¡¡¡OJO!!! El Contacto Ingresado No Existe {IOError}')
+
+    # Reiniciar La App()
+    app()    
+
+def buscar_contacto():
+    nombre = input('\nIngrese El Nombre Del Contacto Que Desea Buscar:\n')
+
+    try:
+        with open(CARPETA + nombre + EXTENSION) as contacto:
+            print('\nInformación Del Contacto:')
+            for linea in contacto:
+                print(linea.rstrip())
+            print('\n')
+    except IOError:
+        print(f'\n ¡¡¡OJO!!! El Contacto Ingresado No Existe {IOError}')
+
+    # Reiniciar La App()
+    app()    
 
 """ LISTANDO LOS ARCHIVOS DE CONTACTO """
 def mostrar_contactos():
@@ -54,6 +81,9 @@ def mostrar_contactos():
             for linea in contacto:
                 # Imprime El Contenido Del Archivo
                 print(linea.rstrip())
+    
+    # Reiniciar La App()
+    app()            
 
 def editar_contacto():
     print('\nEscribe El Nombre Del Contacto A Editar')
