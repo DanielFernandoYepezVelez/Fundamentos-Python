@@ -1,0 +1,8 @@
+¿QUE ES LA PROGRAMACIÓN ORIENTADA A OBJETOS (POO)?
+
+Es Un Paradigma De Programación. Un Paradigma Es La
+Forma En Que Se Ve El Mundo, De Acuerdo A Tu Educación,
+Creencias, Cultura, Habitos, etc. 
+
+En Concreto, En El Mundo De La Programación Es Una 
+Forma De Programar O Una Manera De Ver La Programación.
